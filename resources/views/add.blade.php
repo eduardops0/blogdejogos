@@ -45,7 +45,7 @@
                 <a href="/" style="color:white; padding: 10px; background-color:black; text-align:center; text-decoration:none; ">Voltar</a>
             </form>
         </div>
-        @include('includes\footer') <!-- Incluindo o cabeçalho -->
+        @include('includes\footer')
     </body>
 </html>
 
