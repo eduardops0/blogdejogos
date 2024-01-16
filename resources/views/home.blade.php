@@ -16,7 +16,7 @@
         </style>
     </head>
     <body class="container" style="background-color: black;">
-        @include('includes\header') <!-- Incluindo o cabeçalho -->
+        @include('includes\header')
         <div class="contain">
             <div class="d-flex search-container justify-content-center">
                 <form action="{{ route('game.search') }}" method="GET">
