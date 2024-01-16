@@ -95,7 +95,7 @@ font-weight: 900;
                     </p>
                 </div>
             </div>
-        @include('includes\footer') <!-- Incluindo o cabeçalho -->
+        @include('includes\footer')
         <script>
     const collapseButtons = document.querySelectorAll('.collapse-button');
     const collapseContents = document.querySelectorAll('.collapse-content');
@@ -117,7 +117,6 @@ font-weight: 900;
       });
     });
 
-    // Inicializa o primeiro botão como ativo e seu conteúdo como expandido
     collapseButtons[0].classList.add('active');
     collapseContents[0].style.display = 'block';
   </script>
