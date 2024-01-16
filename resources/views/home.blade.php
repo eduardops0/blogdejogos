@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        @include('includes\footer') <!-- Incluindo o cabeçalho -->
+        @include('includes\footer')
         <script src="https://kit.fontawesome.com/ba3696a46c.js" crossorigin="anonymous"></script>
     </body>
 </html>
